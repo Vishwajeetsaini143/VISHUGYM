@@ -1,0 +1,55 @@
+.similarExercises{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    
+   margin-left: 30px;
+    
+    gap: 10vh;
+    height: 70vh;
+    
+    
+    
+}
+.hadding {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.similar-data img{
+    height: 40vh;
+
+
+}
+.data-sim {
+    margin-bottom: 10px;
+    margin-top: 10vh;
+    border-top: 3px solid red;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+   
+}
+.button-bodypart button{
+    padding: 7px 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+        text-align: center;
+    }
+    .h2-name{
+    text-align: center;
+    }
+
+
+    .button-bodypart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        
+    }

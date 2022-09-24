@@ -1,0 +1,28 @@
+.cat-img img{
+    height: 40px;
+   
+    
+}
+.cat-img {
+    width: 300px;
+    height: 150px;
+   
+    margin: 0 10px;
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+    gap: 250px;
+
+    overflow-x: scroll;
+   
+}
+.cat-img .link{
+    list-style: none;
+    text-decoration: none;
+}
+.cat-img h2{
+    color: rgba(255, 0, 0, 0.5);
+}

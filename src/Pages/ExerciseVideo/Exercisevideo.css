@@ -1,0 +1,10 @@
+.video-detalis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+.video-detalis{
+    gap: 10vh;
+}

@@ -1,0 +1,46 @@
+.exercies-card-data{
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    margin-top: 10vh;
+    background-color: rgba(238, 238, 238, 0.459);
+    height: 80vh;
+    width: 90%;
+    margin-left: 10vh;
+    border-radius: 20px;
+}
+body{
+    background-color: #fff;
+}
+.exrecies-img img{
+    height: 70vh;
+    margin-top: 20px;
+    width: 70vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.exercies-text{
+    text-transform: capitalize;
+   
+}
+.exercies-text h1{
+    color: red;
+}
+
+.exercies-text h2{
+    margin-top: 20px;
+}
+.exercies-text{
+    margin-top: 20px;
+}
+@media (min-width: 800px) {
+    .exercies-card-data{
+        height: 50vh;
+        width: 100%;
+    }
+    .exrecies-img img{
+        height: 45vh;
+        width: 45vh;
+
+    }
+  }

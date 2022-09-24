@@ -1,0 +1,63 @@
+.SearchExercises{
+    text-align: center;
+  
+}
+.SearchExercises h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.input-wraper input{
+   
+    outline: none;
+    width: 86%;
+border: none;
+
+padding:0 20px;
+
+    
+    
+}
+.input-wraper{
+    
+    background:#fff;
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+height: 50px;
+}
+
+body{
+    background-color: #eee;
+}
+.input-wraper input::placeholder{
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.input-wraper button{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 0 20px;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+
+}
+@media (max-width: 768px){
+    .input-wraper input{
+        padding: 10px;
+
+    }
+  
+    .SearchExercises h1{
+        font-size: 30px;
+    }
+
+}

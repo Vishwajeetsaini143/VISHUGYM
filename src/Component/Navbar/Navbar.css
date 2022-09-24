@@ -1,0 +1,113 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+.nav img{
+    height: 7vh;
+}
+
+
+.navbar-banner img{
+    height: 700px;
+
+}
+
+
+ .nav ul .li{
+    border-bottom: 3px solid red;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+.nav ul{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 20px;
+    list-style-type: none;
+}
+.Excersice{
+    font-size: 200px;
+    margin-left: 25%;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #ff2625;
+    opacity: 0.1;
+}
+
+
+.details{
+    margin-left: 80px;
+    margin-top: 100px;
+    
+}
+.navbar-para{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.para{
+    width: 80%;
+    
+}
+.navbar-leftside{
+    width: 50%;
+}
+ .nav .link li {
+
+    color: black;
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+.details button{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.details button:hover{
+    background-color: tomato;
+    
+}
+@media (max-width: 768px) {
+    .navbar-banner img{
+        display: none;
+    
+    }
+    .Excersice{
+        font-size: 100px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 20vh;
+    }
+    .details{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-leftside{
+        width: 100%;
+        line-height: 20px;
+    }
+    .br{
+        display: none;
+    }
+    
+  }

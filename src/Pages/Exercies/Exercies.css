@@ -1,0 +1,23 @@
+.exercies-detalis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    background-color: #eee;
+}
+.exercies{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 3px solid red;
+    margin-top: 20px;
+}
+.h1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: indigo;
+    color: #eee;
+    
+    
+}
