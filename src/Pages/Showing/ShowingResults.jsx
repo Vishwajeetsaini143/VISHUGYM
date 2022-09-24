@@ -25,15 +25,7 @@ const ShowingResults = ({ data }) => {
     <>
       <h1 className="hadeinng">{`Show Results  (${currentItems?.length})`} </h1>
 
-      <div className="next">
-        <button onClick={() => setPage(page - 1)} className="btn-show">
-          Previous
-        </button>
-        <p>{page}</p>
-        <button onClick={() => setPage(page + 1)} className="btn-show">
-          Next
-        </button>
-      </div>
+      
       <div className="exercies-detalis">
         {currentItems?.map((item) => {
           return (
@@ -53,7 +45,7 @@ const ShowingResults = ({ data }) => {
         })}
       </div>
       <div className="next">
-        <button onClick={() => setPage(page - 1)} className="btn-show">
+        <button disabled={page===1?true:''} onClick={() => setPage(page - 1)} className="btn-show">
           Previous
         </button>
         <p>{page}</p>

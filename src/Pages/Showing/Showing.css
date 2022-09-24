@@ -16,16 +16,20 @@
     justify-content: center;
     gap: 20px;
     color: red;
-    background-color: #fcc757;
+    
     color: black;
     
 }
 .next button{
     background-color: #ffa9a9;
     border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .next p{
-    border: 2px solid black;
+    font-weight: bold;
+    padding: 10px;
     border-radius: 5px;
     background-color: #ffa9a9;
     
@@ -35,6 +39,10 @@
     justify-content: center;
     width: 30px;
     
+
+}
+.next button {
+    border: none;
 
 }
 

@@ -9,6 +9,7 @@ import ShowingResults from "../../Pages/Showing/ShowingResults";
 import { Link } from "react-router-dom";
 import { fetchData } from "../FetchData";
 import { API_KEY_exercises } from "../api/apikey";
+import vishu from '../../Component/images/vishu.jpg'
 const options = {
   method: "GET",
   url: "https://exercisedb.p.rapidapi.com/exercises",
@@ -49,6 +50,8 @@ const Navbar = () => {
 
   return (
     <>
+    
+   
       <div className="navbar">
         <div className="navbar-leftside">
           <div className="nav">
@@ -85,6 +88,7 @@ const Navbar = () => {
         </div>
 
         <div className="right-side">
+     
           <div className="navbar-banner">
             <img src={banner} alt="" />
           </div>

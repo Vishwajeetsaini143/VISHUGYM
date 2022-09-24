@@ -30,10 +30,10 @@ const ExerciseDetail = () => {
   return (
     <>
       <h1 className="h1">
-        <marquee behavior="scroll" direection="left" scrollamount="5">
-          {" "}
+       
+         
           {title} all exercies
-        </marquee>
+        
       </h1>
 
       <div className="exercies-detalis">

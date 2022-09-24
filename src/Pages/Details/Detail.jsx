@@ -31,9 +31,9 @@ const Detail = () => {
   return (
     <>
       <h1 className="h2">
-        <marquee behavior="scroll" direection="left" scrollamount="5">
+       
           Exercisse Details
-        </marquee>
+       
       </h1>
       <div className="details-item">
         {data.slice(13, 15)?.map((item) => {

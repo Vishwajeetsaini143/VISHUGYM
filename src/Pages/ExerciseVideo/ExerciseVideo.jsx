@@ -31,9 +31,9 @@ const ExerciseVideo = () => {
   return (
     <>
       <h1 className="h1">
-        <marquee behavior="scroll" direection="left" scrollamount="5">
+        
           Exercisse Videos
-        </marquee>
+        
       </h1>
 
       <div className="video-detalis">
