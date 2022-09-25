@@ -1,3 +1,4 @@
+
 .btn{
     display: flex;
     align-items: center;
@@ -9,13 +10,14 @@
 
 }
 .next{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     color: red;
+    
     
     color: black;
     

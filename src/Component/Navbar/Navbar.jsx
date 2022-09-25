@@ -9,7 +9,7 @@ import ShowingResults from "../../Pages/Showing/ShowingResults";
 import { Link } from "react-router-dom";
 import { fetchData } from "../FetchData";
 import { API_KEY_exercises } from "../api/apikey";
-import vishu from '../../Component/images/vishu.jpg'
+
 const options = {
   method: "GET",
   url: "https://exercisedb.p.rapidapi.com/exercises",

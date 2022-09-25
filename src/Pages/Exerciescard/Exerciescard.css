@@ -1,13 +1,17 @@
 .exercies-card-data{
     display: flex;
-    gap: 10vh;
+    gap: 50px;
     justify-content: center;
     margin-top: 10vh;
-    background-color: rgba(238, 238, 238, 0.459);
+    /* background-color: rgba(238, 238, 238, 0.459); */
     height: 80vh;
-    width: 90%;
-    margin-left: 10vh;
+    
+    background-color:#fff;
+    margin-left: 30px;
+    margin-right: 30px;
+    
     border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 body{
     background-color: #fff;
@@ -17,7 +21,7 @@ body{
     margin-top: 20px;
     width: 70vh;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   
 }
 .exercies-text{
     text-transform: capitalize;
@@ -33,7 +37,7 @@ body{
 .exercies-text{
     margin-top: 20px;
 }
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .exercies-card-data{
         height: 50vh;
         width: 100%;

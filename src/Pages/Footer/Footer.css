@@ -1,0 +1,23 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+}
+.Footer img{
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.Footer h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Sail', cursive;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sail&display=swap');
+

@@ -25,7 +25,7 @@ const Exerciescard = () => {
 
   React.useEffect(() => {
     getDetails();
-  }, [getDetails]);
+  }, []);
   return (
     <div className="exercies-card-data">
       <div className="exrecies-img">

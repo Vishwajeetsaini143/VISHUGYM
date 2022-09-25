@@ -4,14 +4,17 @@ import ExerciseVideo from '../ExerciseVideo/ExerciseVideo'
 import Detail from '../Details/Detail'
 import SimilarExercises from '../SimilarExercises/SimilarExercises'
 import Equipment from '../Equipment/Equipment'
+import Footer from '../Footer/Footer'
 
 const ExerciesSingle = () => {
   return(
-    <div className='exercies-single' style={{background:"#fff"}}>
+    <div className='exercies-single'>
     <Detail/>
     <ExerciseVideo/>
     <SimilarExercises/>
     <Equipment/>
+    <Footer/>
+    
     </div>
   )
  
