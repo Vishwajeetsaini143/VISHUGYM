@@ -86,3 +86,10 @@ width: 7vh;
         }
         
   }
+  .details-img{
+    position: absolute;
+    top:75px;
+    left: 40px;
+    
+    border: 10px;
+  }

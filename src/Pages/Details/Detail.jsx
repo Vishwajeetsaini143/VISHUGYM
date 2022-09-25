@@ -5,9 +5,12 @@ import TargetImage from "../../Component/images/TargetImage.png";
 import EquipmentImage from "../../Component/images/EquipmentImage.png";
 import "./Detail.css";
 import { API_KEY_exercises } from "../../Component/api/apikey";
+ import left  from '../../Component/images/left-arrow.png'
+import { useNavigate } from "react-router-dom";
 
 const Detail = () => {
   const [data, setData] = React.useState([]);
+  const navigate = useNavigate();
 
   const options = {
     method: "GET",
@@ -28,14 +31,21 @@ const Detail = () => {
     getDetails();
   }, []);
 
+  const handelChange=()=>{
+    navigate ("/")
+  }
+
   return (
     <>
+     
       <h1 className="h2">
        
           Exercisse Details
        
       </h1>
       <div className="details-item">
+       
+        <img className="details-img" src={left} alt="" onClick={handelChange}/> 
         {data.slice(13, 15)?.map((item) => {
           return (
             <>
