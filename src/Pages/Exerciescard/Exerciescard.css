@@ -3,13 +3,10 @@
     gap: 50px;
     justify-content: center;
     margin-top: 10vh;
-    /* background-color: rgba(238, 238, 238, 0.459); */
     height: 80vh;
-    
     background-color:#fff;
     margin-left: 30px;
-    margin-right: 30px;
-    
+    margin-right: 30px; 
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

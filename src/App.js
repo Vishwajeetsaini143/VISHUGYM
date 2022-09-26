@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Navbar from "./Component/Navbar/Navbar";
 import ExerciseDetail from "./Pages/Exercies/ExerciseDetail";
 import ExerciesSingle from "./Pages/ExerciesSingle/ExerciesSingle";

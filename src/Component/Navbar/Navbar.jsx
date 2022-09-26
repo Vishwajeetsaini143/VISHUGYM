@@ -9,6 +9,8 @@ import ShowingResults from "../../Pages/Showing/ShowingResults";
 import { Link } from "react-router-dom";
 import { fetchData } from "../FetchData";
 import { API_KEY_exercises } from "../api/apikey";
+import Slider from "../../Pages/Slider/Slider";
+
 
 const options = {
   method: "GET",
@@ -55,7 +57,9 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-leftside">
           <div className="nav">
+            
             <img src={Logo} alt="" />
+            
             <ul>
               <li className="li">Home</li>
               <Link to="/Exercies" className="link">
@@ -90,7 +94,9 @@ const Navbar = () => {
         <div className="right-side">
      
           <div className="navbar-banner">
-            <img src={banner} alt="" />
+          <Slider/>
+           
+           
           </div>
         </div>
       </div>
