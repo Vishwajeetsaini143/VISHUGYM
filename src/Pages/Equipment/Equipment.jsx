@@ -23,7 +23,7 @@ const Equipment = () => {
 
   return (
     <div>
-      <h1 className="hadding">Exercises that use the same equipment</h1>
+      <h1 className="hadding">Exercises <span>that use the same</span> equipment</h1>
       <div className="similarExercises">
         {equipment.slice(35, 80)?.map((item) => {
           return (

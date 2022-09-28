@@ -25,7 +25,7 @@ const SimilarExercises = () => {
 
   return (
     <>
-      <h1 className="hadding">Exercises that target the same muscle group</h1>
+      <h1 className="hadding">Exercises that <span>target the same muscle </span> group</h1>
       <div className="similarExercises">
         {similar.slice(5, 35)?.map((item) => {
           return (
